@@ -1,1 +1,114 @@
-<p>formulario-denuncia works!</p>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Registration Form | CodingLab</title>
+    <link rel="stylesheet" href="formulario-denuncia.component.css">
+    <meta name="viewport" content="width = device-width,initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">GENERAR DENUNCIA</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Edad</span>
+                        <input type="text" placeholder="Introduce tu edad" required>
+                    </div>
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <input type="radio" name="gender" id="dot-3">
+                        <span class="gender-title">Genero</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Hombre</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Mujer</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot three"></span>
+                                <span class="gender">Indefinido</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Institución</span>
+                        <input type="text" placeholder="Introduce una Institución" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Lugar de los hechos</span>
+                        <input type="text" placeholder="Introduce el lugar de los hechos" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Fecha de los hechos</span>
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Nombre del agresor</span>
+                        <input type="text" placeholder="Nombre de denunciado" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Edad del agresor</span>
+                        <input type="number" placeholder="Introduce edad denunciado" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Perfil del agresor</span>
+                        <input type="text" placeholder="Introduce perfil del agresor" required>
+                    </div>
+                    <div class="gender-details2">
+                        <input type="radio" name="gender2" id="dot-111">
+                        <input type="radio" name="gender2" id="dot-222">
+                        <input type="radio" name="gender2" id="dot-333">
+                        <span class="gender-title2">Genero</span>
+                        <div class="category2">
+                            <label for="dot-111">
+                                <span class="dot onee"></span>
+                                <span class="gender2">Hombre</span>
+                            </label>
+                            <label for="dot-222">
+                                <span class="dot twoo"></span>
+                                <span class="gender2">Mujer</span>
+                            </label>
+                            <label for="dot-333">
+                                <span class="dot threee"></span>
+                                <span class="gender2">Indefinido</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-details">
+                    <div>
+                        <span class="details">Descripción de los hechos</span>
+                        <textarea  class="textarea"type="field" placeholder="Cuenta tu historia" required></textarea>
+                      </div>
+                </div>
+                <div class="user-details">
+                        <select name="format" id="format">
+                           <option selected disabled>Selecciona un tipo de violencia</option>
+                           <option value="pdf">PDF</option>
+                           <option value="txt">txt</option>
+                           <option value="epub">ePub</option>
+                           <option value="fb2">fb2</option>
+                           <option value="mobi">mobi</option>
+                        </select>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enviar denuncia">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
