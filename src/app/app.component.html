@@ -2,14 +2,7 @@
 
 <div>
   <tabset>
-    <tab heading="Inicio" id="tab1"><carousel [isAnimated]="true">
-      <slide>
-        <img src="assets/fondo.jpg" alt="first slide" style="display: block; width: 100%;">
-      </slide>
-      <slide>
-        <img src="assets/fondo.png" alt="second slide" style="display: block; width: 100%;">
-      </slide>
-    </carousel></tab>
+    <tab heading="Inicio" id="tab1"></tab>
     <tab heading="Proceso de denuncia"><accordion>
       <accordion-group heading="Static Header">
         This content is straight in the template.
@@ -24,7 +17,7 @@
         <p>Some content</p>
       </accordion-group>
     </accordion></tab>
-    <tab heading="Generar denuncia"></tab>
+    <tab heading="Generar denuncia"><app-formulario-denuncia></app-formulario-denuncia></tab>
     <tab heading="Información relevante"></tab>
     <tab heading="Acerca de Nosotros"></tab>
     <tab heading="Login"><app-login></app-login></tab>
