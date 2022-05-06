@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormularioDenunciaComponent } from './formulario-denuncia/formulario-denuncia.component';
+import { PasosDenunciaComponent } from './pasos-denuncia/pasos-denuncia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    FormularioDenunciaComponent
+    FormularioDenunciaComponent,
+    PasosDenunciaComponent
   ],
   imports: [
     BrowserModule,

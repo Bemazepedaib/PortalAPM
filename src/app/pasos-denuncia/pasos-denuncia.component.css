@@ -1,0 +1,22 @@
+.contenedor {
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+}
+
+.tb {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.textoContenido {
+    padding: 2%;
+    box-shadow: 5px 10px 8px #888888
+}
