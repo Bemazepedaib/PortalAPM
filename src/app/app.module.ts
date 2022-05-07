@@ -11,6 +11,7 @@ import { FormularioDenunciaComponent } from './formulario-denuncia/formulario-de
 import { PasosDenunciaComponent } from './pasos-denuncia/pasos-denuncia.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { AcercaDeComponent } from './acerca-de/acerca-de.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AcercaDeComponent } from './acerca-de/acerca-de.component';
     LoginComponent,
     FormularioDenunciaComponent,
     PasosDenunciaComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
