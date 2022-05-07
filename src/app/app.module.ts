@@ -9,13 +9,16 @@ import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormularioDenunciaComponent } from './formulario-denuncia/formulario-denuncia.component';
 import { PasosDenunciaComponent } from './pasos-denuncia/pasos-denuncia.component';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     FormularioDenunciaComponent,
-    PasosDenunciaComponent
+    PasosDenunciaComponent,
+    AcercaDeComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +26,9 @@ import { PasosDenunciaComponent } from './pasos-denuncia/pasos-denuncia.componen
     BrowserAnimationsModule,
     AccordionModule.forRoot(),
     TabsModule.forRoot(),
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    BrowserAnimationsModule,
+    BsDropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -90,19 +90,33 @@
                 <div class="user-details">
                     <div>
                         <span class="details">Descripción de los hechos</span>
-                        <textarea  class="textarea"type="field" placeholder="Cuenta tu historia" required></textarea>
-                      </div>
+                        <textarea class="textarea" type="field" placeholder="Cuenta tu historia" required></textarea>
+                    </div>
                 </div>
-                <div class="user-details">
-                        <select name="format" id="format">
-                           <option selected disabled>Selecciona un tipo de violencia</option>
-                           <option value="pdf">PDF</option>
-                           <option value="txt">txt</option>
-                           <option value="epub">ePub</option>
-                           <option value="fb2">fb2</option>
-                           <option value="mobi">mobi</option>
-                        </select>
-                </div>
+                <!-- <div class="user-details"> 
+                    <select name="format" id="format">
+                        <option selected disabled>Selecciona un tipo de violencia</option>
+                        <option value="pdf">PDF</option>
+                        <option value="txt">txt</option>
+                        <option value="epub">ePub</option>
+                        <option value="fb2">fb2</option>
+                        <option value="mobi">mobi</option>
+                    </select>
+                </div>-->
+                <div class="btn-group" dropdown >
+                    <button id="button-animated" dropdownToggle type="button" class="btn btn-outline-light dropdown-toggle"
+                            aria-controls="dropdown-animated">
+                      Button dropdown <span class="caret"></span>
+                    </button>
+                    <ul id="dropdown-animated" *dropdownMenu class="dropdown-menu"
+                        role="menu" aria-labelledby="button-animated">
+                      <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                      <li role="menuitem"><a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li role="menuitem"><a class="dropdown-item" href="#">Something else
+                        here</a></li>
+                    </ul>
+                  </div>
                 <div class="button">
                     <input type="submit" value="Enviar denuncia">
                 </div>
