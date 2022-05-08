@@ -1,9 +1,14 @@
-.footer {
-    position: relative; 
-            padding: 10px 10px 10px 10px;
-            bottom: 0;
-            width: 100%;
-            /* Height of the footer*/ 
-            height: 100px;
-            background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+.tabs {
+    background-color: white;
+    color: black;
+    font-style: bold;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+}
+.tabs:hover{
+    background-color: rgba(111, 0, 155, 0.937);
+    color:white;
+    font-style: italic
 }

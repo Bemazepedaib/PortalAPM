@@ -1,11 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
-.card.customClass, .card.customClass .card-header, .panel.customClass {
+.card.accProceso {
     border-radius: 5px;
+}
+.panel.accProceso{
+    border-radius: 5px;
+}
+.card.accProceso .card-header {
+    border-radius: 5px;
+    font-style: bold;
+    font-size: 30px;
+    color: rgb(18, 0, 180);
+    font-style: italic;
+    text-align: center;
 }
 
 .panel.accAcercaDe {
     border-radius: 5px;
-    border-color: rgba(183, 0, 255, 0.937)
+    /* border-color: rgba(183, 0, 255, 0.937); */
+    border:none;
+    padding-bottom: 10px;
 }
 .card.accAcercaDe{
     border-radius: 5px;
@@ -17,5 +30,5 @@
     height: 50px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: rgba(183, 0, 255, 0.937);
+    background-color: rgba(111, 0, 155, 0.937);
 }

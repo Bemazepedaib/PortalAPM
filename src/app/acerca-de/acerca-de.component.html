@@ -1,9 +1,49 @@
 <div class="texto">
-    <div class="titulo" style="text-align: center ;">Quiénes somos</div>
+    <div class="titulo">¿Quiénes somos?</div>
     <br>Somos un equipo multidisciplinario, multicultural; siendo conformada mayoritariamente por mujeres, jóvenes de
     diversas disciplinas de las áreas sociales; con una amplia experiencia en el trabajo de capacitación, gestión,
     desarrollo y ejecución de proyectos dentro del ámbito público y social.<br>
 
+    <br>
+    <div class="titulo">¿Qué hacemos?</div>
+    <br>
+    <table class="contenedor">
+        <tr>
+            <td class="encabezado">
+                Proyectos
+            </td>
+            <td class="encabezado">
+                Investigación
+            </td>
+            <td class="encabezado">
+                Gestión
+            </td>
+            <td class="encabezado">
+                Capacitación
+            </td>
+        </tr>
+        <tr>
+            <td class="seccion">
+                Desarrollamos programas y proyectos acordes a las necesidades de las instituciones; desde la
+                planeación,
+                ejecución y seguimiento; creando estrategias para medir su impacto y resultados obtenidos.
+            </td>
+            <td class="seccion">
+                Servicios de consultoría estratégica, asistencia técnica, investigación social especializada en
+                políticas y programas públicos de actuación. Logrando incluir los sectores involucrados para la búsqueda
+                de soluciones.
+            </td>
+            <td class="seccion">
+                Asesoría en procuración de fondos y gestión de diversos tipos de proyectos; cabildeo y construcción de
+                alianzas participativas, brindando acompañamiento y propuestas para alcanzarlo.
+            </td>
+            <td class="seccion">
+                Diseño e impartición de talleres acorde a la problemática, población objetivo y necesidades; con
+                indicadores que permiten evaluar alcances; cuantificar logros y propuestas para su actualización
+                constante.
+            </td>
+        </tr>
+    </table>
     <br>
     <div class="titulo">Objeto Social:</div>
     <br>Atención y apoyo a personas que se vean impedidas para satisfacer sus necesidades básicas de subsistencia tales
@@ -13,56 +53,96 @@
     modificar las circunstancias que impidan al individuo su desarrollo, otorgando servicios que mejoren las condiciones
     psicosociales, educativas, de salud física, emocional, de autosuficiencia, sustentabilidad, cultura y de orientación
     social.
+    <br>
+    <br>
+    <div class="titulo">Nuestros Objetivos:</div>
 </div>
 <div class="contenedor">
-    <accordion [isAnimated]="true">
+    <accordion [isAnimated]="true" [closeOthers]=true>
         <accordion-group [panelClass]="customClass">
             <span accordion-heading>
-                <img src="assets/equipo.png" class="imagen">
+                <img src="assets/participacion.png" class="imagen">
                 <i class="titAccor">Participación Ciudadana</i>
             </span>
+            <div class="temxto">
+                Promover la participación ciudadana con la finalidad de construir una sociedad justa, igualitaria y
+                sustentable.
+            </div>
         </accordion-group>
-        <br>
         <accordion-group [panelClass]="customClass">
             <span accordion-heading>
-                <i class="titAccor">Promoción de los Cerechos</i>
+                <img src="assets/derechos.png" class="imagen">
+                <i class="titAccor">Promoción de los Derechos</i>
             </span>
+            <div class="temxto">
+                Desarrollar acciones bajo una perspectiva de derechos, equidad, igualdad, seguridad social, cultura,
+                artes,
+                educación ambiental.
+            </div>
         </accordion-group>
-        <br>
         <accordion-group [panelClass]="customClass">
             <span accordion-heading>
+                <img src="assets/capacitacion.png" class="imagen">
                 <i class="titAccor">Capacitación</i>
             </span>
+            <div class="temxto">
+                Diseñar, implementar, gestionar y coordinar programas de intervención, capacitación, producción
+                artística y
+                cultural.
+            </div>
         </accordion-group>
-        <br>
         <accordion-group [panelClass]="customClass">
             <span accordion-heading>
+                <img src="assets/intervencion.png" class="imagen">
                 <i class="titAccor">Intervención Social</i>
             </span>
+            <div class="temxto">
+                Elaborar propuestas de intervención social, desarrollo sustentable, igualdad de género, política social
+                y de
+                derechos.
+            </div>
         </accordion-group>
-        <br>
         <accordion-group [panelClass]="customClass">
             <span accordion-heading>
+                <img src="assets/desarrollo.png" class="imagen">
                 <i class="titAccor">Desarrollo Social</i>
             </span>
+            <div class="temxto">
+                Realizar acciones que favorezcan el desarrollo social, medio ambiental y la paz con un enfoque de
+                respeto.
+            </div>
         </accordion-group>
-        <br>
         <accordion-group [panelClass]="customClass">
             <span accordion-heading>
-                <i class="titAccor">Grupos prioritarios</i>
+                <img src="assets/grupos.png" class="imagen">
+                <i class="titAccor">Grupos Prioritarios</i>
             </span>
+            <div class="temxto">
+                Promoción, defensa, formación, organización y capacitación para el cumplimiento de los derechos de
+                grupos
+                prioritarios.
+            </div>
         </accordion-group>
-        <br>
         <accordion-group [panelClass]="customClass">
             <span accordion-heading>
+                <img src="assets/identidad.png" class="imagen">
                 <i class="titAccor">Fortalecimiento a la Identidad</i>
             </span>
+            <div class="temxto">
+                Implementar acciones que promuevan y fortalezcan el idioma, la identidad, costumbres, organización en un
+                ambiente de respeto a los derechos civiles.
+            </div>
         </accordion-group>
-        <br>
         <accordion-group [panelClass]="customClass">
             <span accordion-heading>
+                <img src="assets/equidad.png" class="imagen">
                 <i class="titAccor">Equidad Social</i>
             </span>
+            <div class="temxto">
+                Impulsar trabajos organizativos, productivos y educativos con mujeres, promoviendo acciones que tiendan
+                al
+                alcance de una mayor equidad social.
+            </div>
         </accordion-group>
     </accordion>
 </div>

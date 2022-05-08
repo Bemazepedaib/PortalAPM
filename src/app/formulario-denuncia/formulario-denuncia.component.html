@@ -16,7 +16,7 @@
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">Edad</span>
-                        <input type="text" placeholder="Introduce tu edad" required>
+                        <input type="number" placeholder="Introduce tu edad" required>
                     </div>
                     <div class="gender-details">
                         <input type="radio" name="gender" id="dot-1">
@@ -103,20 +103,27 @@
                         <option value="mobi">mobi</option>
                     </select>
                 </div>-->
-                <div class="btn-group" dropdown >
-                    <button id="button-animated" dropdownToggle type="button" class="btn btn-outline-light dropdown-toggle"
-                            aria-controls="dropdown-animated">
-                      Button dropdown <span class="caret"></span>
-                    </button>
-                    <ul id="dropdown-animated" *dropdownMenu class="dropdown-menu"
-                        role="menu" aria-labelledby="button-animated">
-                      <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
-                      <li role="menuitem"><a class="dropdown-item" href="#">Another action</a>
-                      </li>
-                      <li role="menuitem"><a class="dropdown-item" href="#">Something else
-                        here</a></li>
-                    </ul>
-                  </div>
+                <div class="user-details">
+                    <div class="custom-select" style="width:200px;">
+                        <select>
+                          <option value="0">Selecciona tipo de violencia</option>
+                          <option value="1">Verbal</option>
+                          <option value="2">Patrimonial</option>
+                          <option value="3">Física</option>
+                          <option value="4">Sexual</option>
+                        </select>
+                      </div>
+                    <label for="file-upload" class="custom-file-upload">
+                        Subir evidencia
+                    </label>
+                    <input id="file-upload" type="file" multiple="multiple"/>
+                </div>
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Correo</span>
+                        <input type="email" placeholder="Introduce un correo" required>
+                    </div>
+                </div>
                 <div class="button">
                     <input type="submit" value="Enviar denuncia">
                 </div>

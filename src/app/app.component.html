@@ -1,13 +1,40 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We">
 
 <div>
-  <tabset>
-    <tab heading="Inicio" id="tab1"></tab>
-    <tab heading="Proceso de denuncia"><app-pasos-denuncia></app-pasos-denuncia></tab>
-    <tab heading="Generar denuncia"><app-formulario-denuncia></app-formulario-denuncia></tab>
-    <tab heading="Información relevante"></tab>
-    <tab heading="Acerca de Nosotros"><app-acerca-de></app-acerca-de></tab>
-    <tab heading="Login"><app-login></app-login></tab>
+  <tabset [justified]="true">
+    <tab>
+      <ng-template tabHeading>
+        <div class="tabs">Inicio</div>
+      </ng-template>
+    </tab>
+    <tab>
+      <ng-template tabHeading>
+        <div class="tabs">Proceso de denuncia</div>
+      </ng-template>
+      <app-pasos-denuncia></app-pasos-denuncia>
+    </tab>
+    <tab>
+      <ng-template tabHeading>
+        <div class="tabs">Generar denuncia</div>
+      </ng-template>
+      <app-formulario-denuncia></app-formulario-denuncia>
+    </tab>
+    <tab>
+      <ng-template tabHeading>
+        <div class="tabs">Información relevante</div>
+      </ng-template>
+    </tab>
+    <tab>
+      <ng-template tabHeading>
+        <div class="tabs">Acerca de Nosotros</div>
+      </ng-template><app-acerca-de></app-acerca-de>
+    </tab>
+    <tab>
+      <ng-template tabHeading>
+        <div class="tabs">Login</div>
+      </ng-template>
+      <app-login></app-login>
+    </tab>
   </tabset>
 </div>
 <app-footer></app-footer>

@@ -8,5 +8,5 @@ import { Component} from '@angular/core';
 export class PasosDenunciaComponent{
   isFirstOpen = true
   oneAtATime = true
-  customClass = 'customClass'
+  customClass = 'accProceso'
 }

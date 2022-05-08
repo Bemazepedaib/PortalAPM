@@ -223,3 +223,20 @@ form .button input:hover {
     flex-direction: column;
   }
 }
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 2px solid rgb(123, 123, 123);
+  color:rgb(123, 123, 123);
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.custom-file-upload:hover {
+  border: 2px solid #9b59b6;
+}
+/* CSS del Combo Box */
