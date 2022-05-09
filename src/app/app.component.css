@@ -1,14 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 .tabs {
     background-color: white;
-    color: black;
-    font-style: bold;
+    color: #262262;
     font-size: 15px;
-    font-style: normal;
+    font-weight: bold;
     text-align: center;
     font-family:'Poppins', sans-serif;
+    padding: 5px;
+    border: #262262;
+    width: 200px;
 }
 .tabs:hover{
-    background-color: rgba(111, 0, 155, 0.937);
+    background-color: #662d91fe;
     color:white;
-    font-style: italic
+    font-weight: normal;
+    border-radius: 5px;
 }
+.tabs:focus{
+    background-color: #662d91fe;
+    color:white;
+    font-weight: normal;
+    border-radius: 5px;
+}
+

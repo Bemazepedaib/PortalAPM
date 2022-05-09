@@ -3,26 +3,26 @@
     padding-bottom: 20px;
     padding-left: 5%;
     padding-right: 5%;
-    font-family:'Poppins', sans-serif;
     font-style: normal;
-    color: rgba(0, 0, 0, 0.514);
+    color: rgba(0, 0, 0, 0.76);
     font-size: 20px;
     overflow-x:auto;
 }
 .titulo {
-    font-style: bold;
+    font-weight: bold;
     font-size: 30px;
-    color: rgb(18, 0, 180);
-    font-style: normal;
+    color: #262262;
     text-align: center;
+    font-family:'Poppins', sans-serif;
 }
 .contenedor {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5%;
     padding-right: 5%;
-    margin-left: auto;
-    margin-right: auto;
+}
+.contenedor tr, td {
+    padding: 1%;
 }
 .titAccor{
     padding-top: 15px;
@@ -43,19 +43,30 @@
     height: fit-content;
     border-radius: 5px;
     padding: 10px;
-}
-.encabezado {
-    background-color: rgba(111, 0, 155, 0.937);
-    color: white;
-    font-style: bold;
-    font-size: 30px;
-    font-style: italic;
     text-align: center;
 }
-table, th, td {
-    border: 1px solid
+.encabezado {
+    background-color: #662d91;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
 .temxto {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.76);
+}
+.objetivos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.objetivos th, td {
+    width: 1000px;
 }

@@ -45,7 +45,7 @@
         </tr>
     </table>
     <br>
-    <div class="titulo">Objeto Social:</div>
+    <div class="titulo">Objeto Social</div>
     <br>Atención y apoyo a personas que se vean impedidas para satisfacer sus necesidades básicas de subsistencia tales
     como
     alimentación, vestido, salud, educación, cultura y capacitación, que necesiten apoyo psicosocial, físico y
@@ -55,94 +55,105 @@
     social.
     <br>
     <br>
-    <div class="titulo">Nuestros Objetivos:</div>
+    <div class="titulo">Nuestros Objetivos</div>
 </div>
+<table class="objetivos">
+    <tr>
+        <td>
+            <accordion [isAnimated]="true" [closeOthers]=true>
+                <accordion-group [panelClass]="customClass">
+                    <span accordion-heading>
+                        <img src="assets/participacion.png" class="imagen">
+                        <i class="titAccor">Participación Ciudadana</i>
+                    </span>
+                    <div class="temxto">
+                        Promover la participación ciudadana con la finalidad de construir una sociedad justa, igualitaria y
+                        sustentable.
+                    </div>
+                </accordion-group>
+                <accordion-group [panelClass]="customClass">
+                    <span accordion-heading>
+                        <img src="assets/derechos.png" class="imagen">
+                        <i class="titAccor">Promoción de los Derechos</i>
+                    </span>
+                    <div class="temxto">
+                        Desarrollar acciones bajo una perspectiva de derechos, equidad, igualdad, seguridad social, cultura,
+                        artes,
+                        educación ambiental.
+                    </div>
+                </accordion-group>
+                <accordion-group [panelClass]="customClass">
+                    <span accordion-heading>
+                        <img src="assets/capacitacion.png" class="imagen">
+                        <i class="titAccor">Capacitación</i>
+                    </span>
+                    <div class="temxto">
+                        Diseñar, implementar, gestionar y coordinar programas de intervención, capacitación, producción
+                        artística y
+                        cultural.
+                    </div>
+                </accordion-group>
+                <accordion-group [panelClass]="customClass">
+                    <span accordion-heading>
+                        <img src="assets/intervencion.png" class="imagen">
+                        <i class="titAccor">Intervención Social</i>
+                    </span>
+                    <div class="temxto">
+                        Elaborar propuestas de intervención social, desarrollo sustentable, igualdad de género, política social
+                        y de
+                        derechos.
+                    </div>
+                </accordion-group>
+            </accordion>
+        </td>
+        <td>
+            <accordion [isAnimated]="true" [closeOthers]=true>
+                <accordion-group [panelClass]="customClass">
+                    <span accordion-heading>
+                        <img src="assets/desarrollo.png" class="imagen">
+                        <i class="titAccor">Desarrollo Social</i>
+                    </span>
+                    <div class="temxto">
+                        Realizar acciones que favorezcan el desarrollo social, medio ambiental y la paz con un enfoque de
+                        respeto.
+                    </div>
+                </accordion-group>
+                <accordion-group [panelClass]="customClass">
+                    <span accordion-heading>
+                        <img src="assets/grupos.png" class="imagen">
+                        <i class="titAccor">Grupos Prioritarios</i>
+                    </span>
+                    <div class="temxto">
+                        Promoción, defensa, formación, organización y capacitación para el cumplimiento de los derechos de
+                        grupos
+                        prioritarios.
+                    </div>
+                </accordion-group>
+                <accordion-group [panelClass]="customClass">
+                    <span accordion-heading>
+                        <img src="assets/identidad.png" class="imagen">
+                        <i class="titAccor">Fortalecimiento a la Identidad</i>
+                    </span>
+                    <div class="temxto">
+                        Implementar acciones que promuevan y fortalezcan el idioma, la identidad, costumbres, organización en un
+                        ambiente de respeto a los derechos civiles.
+                    </div>
+                </accordion-group>
+                <accordion-group [panelClass]="customClass">
+                    <span accordion-heading>
+                        <img src="assets/equidad.png" class="imagen">
+                        <i class="titAccor">Equidad Social</i>
+                    </span>
+                    <div class="temxto">
+                        Impulsar trabajos organizativos, productivos y educativos con mujeres, promoviendo acciones que tiendan
+                        al
+                        alcance de una mayor equidad social.
+                    </div>
+                </accordion-group>
+            </accordion>
+        </td>
+    </tr>
+</table>
 <div class="contenedor">
-    <accordion [isAnimated]="true" [closeOthers]=true>
-        <accordion-group [panelClass]="customClass">
-            <span accordion-heading>
-                <img src="assets/participacion.png" class="imagen">
-                <i class="titAccor">Participación Ciudadana</i>
-            </span>
-            <div class="temxto">
-                Promover la participación ciudadana con la finalidad de construir una sociedad justa, igualitaria y
-                sustentable.
-            </div>
-        </accordion-group>
-        <accordion-group [panelClass]="customClass">
-            <span accordion-heading>
-                <img src="assets/derechos.png" class="imagen">
-                <i class="titAccor">Promoción de los Derechos</i>
-            </span>
-            <div class="temxto">
-                Desarrollar acciones bajo una perspectiva de derechos, equidad, igualdad, seguridad social, cultura,
-                artes,
-                educación ambiental.
-            </div>
-        </accordion-group>
-        <accordion-group [panelClass]="customClass">
-            <span accordion-heading>
-                <img src="assets/capacitacion.png" class="imagen">
-                <i class="titAccor">Capacitación</i>
-            </span>
-            <div class="temxto">
-                Diseñar, implementar, gestionar y coordinar programas de intervención, capacitación, producción
-                artística y
-                cultural.
-            </div>
-        </accordion-group>
-        <accordion-group [panelClass]="customClass">
-            <span accordion-heading>
-                <img src="assets/intervencion.png" class="imagen">
-                <i class="titAccor">Intervención Social</i>
-            </span>
-            <div class="temxto">
-                Elaborar propuestas de intervención social, desarrollo sustentable, igualdad de género, política social
-                y de
-                derechos.
-            </div>
-        </accordion-group>
-        <accordion-group [panelClass]="customClass">
-            <span accordion-heading>
-                <img src="assets/desarrollo.png" class="imagen">
-                <i class="titAccor">Desarrollo Social</i>
-            </span>
-            <div class="temxto">
-                Realizar acciones que favorezcan el desarrollo social, medio ambiental y la paz con un enfoque de
-                respeto.
-            </div>
-        </accordion-group>
-        <accordion-group [panelClass]="customClass">
-            <span accordion-heading>
-                <img src="assets/grupos.png" class="imagen">
-                <i class="titAccor">Grupos Prioritarios</i>
-            </span>
-            <div class="temxto">
-                Promoción, defensa, formación, organización y capacitación para el cumplimiento de los derechos de
-                grupos
-                prioritarios.
-            </div>
-        </accordion-group>
-        <accordion-group [panelClass]="customClass">
-            <span accordion-heading>
-                <img src="assets/identidad.png" class="imagen">
-                <i class="titAccor">Fortalecimiento a la Identidad</i>
-            </span>
-            <div class="temxto">
-                Implementar acciones que promuevan y fortalezcan el idioma, la identidad, costumbres, organización en un
-                ambiente de respeto a los derechos civiles.
-            </div>
-        </accordion-group>
-        <accordion-group [panelClass]="customClass">
-            <span accordion-heading>
-                <img src="assets/equidad.png" class="imagen">
-                <i class="titAccor">Equidad Social</i>
-            </span>
-            <div class="temxto">
-                Impulsar trabajos organizativos, productivos y educativos con mujeres, promoviendo acciones que tiendan
-                al
-                alcance de una mayor equidad social.
-            </div>
-        </accordion-group>
-    </accordion>
+    
 </div>
