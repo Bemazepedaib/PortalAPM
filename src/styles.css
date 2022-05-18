@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@swimlane/ngx-datatable/index.css';
+@import '~@swimlane/ngx-datatable/assets/icons.css';
+@import '~@swimlane/ngx-datatable/themes/material.css';
+@import '~@swimlane/ngx-datatable/themes/dark.css';
+@import '~@swimlane/ngx-datatable/themes/bootstrap.css';
+
 .card.accProceso {
     border-radius: 5px;
 }
@@ -33,4 +39,24 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     background-color: #662d91;
+}
+
+.panel.accActividades {
+    border-radius: 5px;
+    border:none;
+    padding-bottom: 10px;
+}
+.card.accActividades{
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.514);
+    max-height: 400px;
+}
+.card.accActividades .card-header{
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #662d91;
+    width: 300px;
 }

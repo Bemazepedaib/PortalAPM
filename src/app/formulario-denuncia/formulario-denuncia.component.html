@@ -11,8 +11,11 @@
 <body>
     <div class="container">
         <div class="title">GENERAR DENUNCIA</div>
+        <br>
+        <br>
         <div class="content">
             <form action="#">
+                <div class="title">Datos de quien denuncia</div>
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">Edad</span>
@@ -21,8 +24,7 @@
                     <div class="gender-details">
                         <input type="radio" name="gender" id="dot-1">
                         <input type="radio" name="gender" id="dot-2">
-                        <input type="radio" name="gender" id="dot-3">
-                        <span class="gender-title">Genero</span>
+                        <span class="gender-title">Sexo</span>
                         <div class="category">
                             <label for="dot-1">
                                 <span class="dot one"></span>
@@ -32,27 +34,10 @@
                                 <span class="dot two"></span>
                                 <span class="gender">Mujer</span>
                             </label>
-                            <label for="dot-3">
-                                <span class="dot three"></span>
-                                <span class="gender">Indefinido</span>
-                            </label>
                         </div>
                     </div>
                 </div>
-                <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">Institución</span>
-                        <input type="text" placeholder="Introduce una Institución" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Lugar de los hechos</span>
-                        <input type="text" placeholder="Introduce el lugar de los hechos" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Fecha de los hechos</span>
-                        <input type="date">
-                    </div>
-                </div>
+                <div class="title">Datos del agresor</div>
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">Nombre del agresor</span>
@@ -69,8 +54,7 @@
                     <div class="gender-details2">
                         <input type="radio" name="gender2" id="dot-111">
                         <input type="radio" name="gender2" id="dot-222">
-                        <input type="radio" name="gender2" id="dot-333">
-                        <span class="gender-title2">Genero</span>
+                        <span class="gender-title2">Sexo</span>
                         <div class="category2">
                             <label for="dot-111">
                                 <span class="dot onee"></span>
@@ -80,11 +64,22 @@
                                 <span class="dot twoo"></span>
                                 <span class="gender2">Mujer</span>
                             </label>
-                            <label for="dot-333">
-                                <span class="dot threee"></span>
-                                <span class="gender2">Indefinido</span>
-                            </label>
                         </div>
+                    </div>
+                </div>
+                <div class="title">Describe lo que pasó</div>
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Institución</span>
+                        <input type="text" placeholder="Introduce una Institución" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Lugar de los hechos</span>
+                        <input type="text" placeholder="Introduce el lugar de los hechos" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Fecha de los hechos</span>
+                        <input type="date">
                     </div>
                 </div>
                 <div class="user-details">
@@ -118,6 +113,11 @@
                     </label>
                     <input id="file-upload" type="file" multiple="multiple"/>
                 </div>
+                <br>
+                <div class="title">¿Qué seguimiento tuviste?</div>
+                <br>
+                <br>
+                <div class="title">¿Quiéres dar seguimiento a tu denuncia?</div>
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">Correo</span>

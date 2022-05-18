@@ -1,0 +1,10 @@
+<div class="contenedor">
+    <ngx-datatable class="bootstrap" [rows]="datos" [rowHeight]="50" [columns]="columnas" columnMode="flex">
+        <ngx-datatable-column name="No" [flexGrow]="1" [cellClass]="getCellClass" [headerClass]="getHeaderClass">
+        </ngx-datatable-column>
+        <ngx-datatable-column name="Reportes" [flexGrow]="1" [cellClass]="getCellClass" [headerClass]="getHeaderClass">
+        </ngx-datatable-column>
+        <ngx-datatable-column name="Institucion" [flexGrow]="8" [cellClass]="getCellClass" [headerClass]="getHeaderClass">
+        </ngx-datatable-column>
+    </ngx-datatable>
+</div>

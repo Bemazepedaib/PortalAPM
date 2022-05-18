@@ -12,6 +12,8 @@ import { PasosDenunciaComponent } from './pasos-denuncia/pasos-denuncia.componen
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 import { FooterComponent } from './footer/footer.component';
+import { ZonasCalientesComponent } from './zonas-calientes/zonas-calientes.component';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     FormularioDenunciaComponent,
     PasosDenunciaComponent,
     AcercaDeComponent,
-    FooterComponent
+    FooterComponent,
+    ZonasCalientesComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { FooterComponent } from './footer/footer.component';
     TabsModule.forRoot(),
     CarouselModule.forRoot(),
     BrowserAnimationsModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    NgxDatatableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

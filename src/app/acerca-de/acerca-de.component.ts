@@ -7,4 +7,5 @@ import { Component} from '@angular/core';
 })
 export class AcercaDeComponent{
   customClass = 'accAcercaDe';
+  customClass1 = 'accActividades'
 }
