@@ -1,0 +1,25 @@
+.objetivos {
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    width: 500px;
+    padding-top: 20px;
+}
+.temxto {
+    text-align: center;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.76);
+    height: fit-content;
+}
+.titAccor{
+    padding-top: 15px;
+    font-size: 20px;
+    color: #262262;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}

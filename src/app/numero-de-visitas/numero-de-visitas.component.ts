@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./numero-de-visitas.component.css']
 })
 export class NumeroDeVisitasComponent {
+  
   constructor() {
     countvisits();
   }

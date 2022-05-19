@@ -9,7 +9,7 @@
           <div>Inicio</div>
         </button>
       </ng-template>
-      <carousel [isAnimated]="true">
+      <carousel [isAnimated]="true" [showIndicators]="false">
         <slide>
           <img src="assets/imagen1.jpg" alt="1 slide" style="display: block; width: 100%;">
         </slide>
@@ -33,14 +33,32 @@
         </slide>
       </carousel>
       <app-numero-de-visitas></app-numero-de-visitas>
+      <app-numero-de-denuncias></app-numero-de-denuncias>
       <div class="titulo">Instituciones con mayor incidencias</div>
       <app-zonas-calientes></app-zonas-calientes>
-      <div class="titulo">Niveles de violencia que exísten (violentómetro)</div>
+      <table class="tabla">
+        <tr>
+          <td>
+            <div class="titulo">Violentómetro</div>
+          </td>
+          <td>
+            <div class="titulo">Tipos de violencia</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <app-violentometro></app-violentometro>
+          </td>
+          <td>
+            <app-tipos-violencia></app-tipos-violencia>
+          </td>
+        </tr>
+      </table>
     </tab>
     <tab>
       <ng-template tabHeading>
         <button class="tabs">
-          <div>Proceso de denuncia</div>
+          <div>Proceso de denuncia física</div>
         </button>
       </ng-template>
       <app-pasos-denuncia></app-pasos-denuncia>

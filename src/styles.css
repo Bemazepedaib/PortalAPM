@@ -13,20 +13,16 @@
 }
 .card.accProceso .card-header {
     border-radius: 5px;
-    font-style: bold;
-    font-size: 30px;
-    color: rgb(18, 0, 180);
-    font-style: italic;
     text-align: center;
-    padding-top: 0%;
+    padding-top: 1%;
     padding-bottom: 1%;
     height: fit-content;
 }
 
 .panel.accAcercaDe {
     border-radius: 5px;
-    border:none;
     padding-bottom: 10px;
+    border:none;
 }
 .card.accAcercaDe{
     border-radius: 5px;
@@ -43,8 +39,8 @@
 
 .panel.accActividades {
     border-radius: 5px;
-    border:none;
     padding-bottom: 10px;
+    border:none;
 }
 .card.accActividades{
     border-radius: 5px;
@@ -58,5 +54,25 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     background-color: #662d91;
-    width: 300px;
+    width: 600px;
+    align-self: center;
+}
+
+.panel.accTViolencia {
+    border-radius: 5px;
+    padding-bottom: 10px;
+    border:none;
+}
+.card.accTViolencia{
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.514);
+}
+.card.accTViolencia .card-header{
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    text-decoration: none;
+    width: 500px;
+    max-width: 600px;
+    align-self: center;
 }

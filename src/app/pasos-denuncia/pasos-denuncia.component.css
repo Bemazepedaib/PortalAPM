@@ -1,5 +1,5 @@
 .contenedor {
-    width: 90%;
+    width: 75%;
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 2%;
@@ -19,6 +19,7 @@
 .textoContenido {
     text-align: center;
     padding: 1%;
+    font-size: 15px;
 }
 
 .titAccor{

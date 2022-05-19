@@ -159,8 +159,7 @@ form .category2 label .dot {
 }
 
 #dot-111:checked~.category2 label .onee,
-#dot-222:checked~.category2 label .twoo,
-#dot-333:checked~.category2 label .threee {
+#dot-222:checked~.category2 label .twoo{
   background: #662d91;
   border-color: #d9d9d9;
 }

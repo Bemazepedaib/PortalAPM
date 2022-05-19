@@ -15,6 +15,10 @@ import { FooterComponent } from './footer/footer.component';
 import { ZonasCalientesComponent } from './zonas-calientes/zonas-calientes.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { NumeroDeVisitasComponent } from './numero-de-visitas/numero-de-visitas.component';
+import { ViolentometroComponent } from './violentometro/violentometro.component';
+import { TiposViolenciaComponent } from './tipos-violencia/tipos-violencia.component';
+import { NumeroDeDenunciasComponent } from './numero-de-denuncias/numero-de-denuncias.component';
+import { CountUpModule } from 'ngx-countup';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,10 @@ import { NumeroDeVisitasComponent } from './numero-de-visitas/numero-de-visitas.
     AcercaDeComponent,
     FooterComponent,
     ZonasCalientesComponent,
-    NumeroDeVisitasComponent
+    NumeroDeVisitasComponent,
+    ViolentometroComponent,
+    TiposViolenciaComponent,
+    NumeroDeDenunciasComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +43,8 @@ import { NumeroDeVisitasComponent } from './numero-de-visitas/numero-de-visitas.
     CarouselModule.forRoot(),
     BrowserAnimationsModule,
     BsDropdownModule.forRoot(),
-    NgxDatatableModule
+    NgxDatatableModule,
+    CountUpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
