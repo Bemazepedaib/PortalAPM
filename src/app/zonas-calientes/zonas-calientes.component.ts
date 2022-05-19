@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ZonasCalientesComponent {
   getCellClass = 'formatoCelda';
   getHeaderClass = 'formatoHeader';
-  datos = [{ 'no': '1', 'reportes':'200', 'institucion':'Instituto Tecnológico de Tepic'}];
-  columnas = [{ prop: 'No'}, { name: 'Reportes'}, { name: 'Institucion' }];
+  datos = [{
+    'no': '1', 'reportes': '200',
+    'clave': '12345', 'institucion': 'Instituto Tecnológico de Tepic',
+    'direccion': 'Av. Tecnológico # 2595, Col. Lagos del Country. C.P. 63175',
+    'telefono': '(311) 211 94 00'
+  }];
+  columnas = [{ prop: 'No' }, { name: 'Reportes' }, { name: 'Clave' }, { name: 'Institucion' }, { name: 'Direccion' }, { name: 'Teléfono' }];
 }

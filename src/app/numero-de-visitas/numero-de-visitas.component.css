@@ -4,25 +4,29 @@
   box-sizing: border-box;
 }
 
-body {
-  background: linear-gradient(135deg, #262262, #da1c5c);
-  color: #fff;
-  font-family: "Muli", sans-serif;
-  flex-direction: column;
+.body {
+  padding: 1%;
+  font-family:'Poppins', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 10hv;
+  height: fit-content;
+  width: 250px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.conteo {
+  color: #662d91;
+  font-size: 50px;
+  font-weight: bolder;
   margin: 0;
 }
 
-h1 {
-  font-size: 70px;
-  margin: 0;
-}
-
-p {
-  color: rgba(247, 131, 131, 0.8);
+.texto {
+  color: #662d91;
+  font-weight: bold;
   letter-spacing: 2px;
   margin: 0;
 }
