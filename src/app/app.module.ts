@@ -14,6 +14,7 @@ import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 import { FooterComponent } from './footer/footer.component';
 import { ZonasCalientesComponent } from './zonas-calientes/zonas-calientes.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { NumeroDeVisitasComponent } from './numero-de-visitas/numero-de-visitas.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     PasosDenunciaComponent,
     AcercaDeComponent,
     FooterComponent,
-    ZonasCalientesComponent
+    ZonasCalientesComponent,
+    NumeroDeVisitasComponent
   ],
   imports: [
     BrowserModule,
