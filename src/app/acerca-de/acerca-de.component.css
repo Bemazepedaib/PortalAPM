@@ -71,3 +71,8 @@
 .objetivos th, td {
     width: 1000px;
 }
+.abajo{
+    color: antiquewhite;
+    text-align:end;
+    float: right;
+}

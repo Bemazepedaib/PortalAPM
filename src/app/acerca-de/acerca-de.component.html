@@ -14,6 +14,7 @@
                     <accordion-group [panelClass]="customClass1">
                         <span accordion-heading>
                             <i class="titAccor">Proyectos</i>
+                            <p class="abajo">↓</p>
                         </span>
                         <div class="temxto">
                             Desarrollamos programas y proyectos acordes a las necesidades de las instituciones; desde la
@@ -28,6 +29,7 @@
                     <accordion-group [panelClass]="customClass1">
                         <span accordion-heading>
                             <i class="titAccor">Investigación</i>
+                            <p class="abajo">↓</p>
                         </span>
                         <div class="temxto">
                             Servicios de consultoría estratégica, asistencia técnica, investigación social especializada
@@ -42,6 +44,7 @@
                     <accordion-group [panelClass]="customClass1">
                         <span accordion-heading>
                             <i class="titAccor">Gestión</i>
+                            <p class="abajo">↓</p>
                         </span>
                         <div class="temxto">
                             Asesoría en procuración de fondos y gestión de diversos tipos de proyectos; cabildeo y
@@ -56,6 +59,7 @@
                     <accordion-group [panelClass]="customClass1">
                         <span accordion-heading>
                             <i class="titAccor">Capacitación</i>
+                            <p class="abajo">↓</p>
                         </span>
                         <div class="temxto">
                             Diseño e impartición de talleres acorde a la problemática, población objetivo y necesidades;
@@ -69,13 +73,17 @@
     </table>
     <br>
     <div class="titulo">Objeto Social</div>
-    <br>Atención y apoyo a personas que se vean impedidas para satisfacer sus necesidades básicas de subsistencia tales
+    <br>
+    <p>Atención y apoyo a personas que se vean impedidas para satisfacer sus necesidades básicas de subsistencia tales
     como
     alimentación, vestido, salud, educación, cultura y capacitación, que necesiten apoyo psicosocial, físico y
-    emocional, que no cuenten con los elementos necesarios para su desarrollo integral y social, a través de mejorar y
+    emocional,<a href="#" onclick='vermas("mas");' id="mas">... [leer más]</a></p>
+    <p id="desplegar" style="display:none;">
+     que no cuenten con los elementos necesarios para su desarrollo integral y social, a través de mejorar y
     modificar las circunstancias que impidan al individuo su desarrollo, otorgando servicios que mejoren las condiciones
     psicosociales, educativas, de salud física, emocional, de autosuficiencia, sustentabilidad, cultura y de orientación
-    social.
+    social.<a href="#" onclick="vermas('menos');" id="menos">... [leer menos]</a>
+    </p>
     <br>
     <br>
     <div class="titulo">Nuestros Objetivos</div>
