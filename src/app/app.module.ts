@@ -15,7 +15,6 @@ import { FooterComponent } from './footer/footer.component';
 import { ZonasCalientesComponent } from './zonas-calientes/zonas-calientes.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { NumeroDeVisitasComponent } from './numero-de-visitas/numero-de-visitas.component';
-import { ViolentometroComponent } from './violentometro/violentometro.component';
 import { TiposViolenciaComponent } from './tipos-violencia/tipos-violencia.component';
 import { NumeroDeDenunciasComponent } from './numero-de-denuncias/numero-de-denuncias.component';
 import { CountUpModule } from 'ngx-countup';
@@ -30,7 +29,6 @@ import { CountUpModule } from 'ngx-countup';
     FooterComponent,
     ZonasCalientesComponent,
     NumeroDeVisitasComponent,
-    ViolentometroComponent,
     TiposViolenciaComponent,
     NumeroDeDenunciasComponent
   ],

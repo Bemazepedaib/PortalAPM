@@ -10,7 +10,26 @@
                         Se conoce como violencia verbal a una forma de maltrato que no pasa a lo físico, pero deja
                         secuelas de igual manera. En general este tipo de violencia no es tan notoria, al menos para
                         terceros, e incluso para la persona violentada.
+                        <br>
+                        <br>
                     </div>
+                    <img class="imagen" src="assets/verbal.png">
+                </accordion-group>
+            </accordion>
+        </td>
+        <td>
+            <accordion [isAnimated]="true">
+                <accordion-group [panelClass]="customClass" [isOpen]="true">
+                    <span accordion-heading>
+                        <i class="titAccor">Física</i>
+                    </span>
+                    <div class="temxto">
+                        La violencia física es aquella acción generada de manera voluntaria y que por lo mismo ocasiona
+                        daños no accidentales, utilizando la fuerza física o material (es decir, sirviéndose de objetos)
+                        y que tiene como fin fundamental generar un impacto directo en el cuerpo y consecuencias físicas
+                        tanto externas como internas.
+                    </div>
+                    <img class="imagen" src="assets/fisica.png">
                 </accordion-group>
             </accordion>
         </td>
@@ -25,29 +44,13 @@
                     <div class="temxto">
                         Robar, retener, destruir o romper los documentos, objetos o bienes comunes, es delito y se llama
                         violencia patrimonial.
+                        <br>
+                        <br>
                     </div>
+                    <img class="imagen" src="assets/patrimonial.png">
                 </accordion-group>
             </accordion>
         </td>
-    </tr>
-    <tr>
-        <td>
-            <accordion [isAnimated]="true">
-                <accordion-group [panelClass]="customClass" [isOpen]="true">
-                    <span accordion-heading>
-                        <i class="titAccor">Física</i>
-                    </span>
-                    <div class="temxto">
-                        La violencia física es aquella acción generada de manera voluntaria y que por lo mismo ocasiona
-                        daños no accidentales, utilizando la fuerza física o material (es decir, sirviéndose de objetos)
-                        y que tiene como fin fundamental generar un impacto directo en el cuerpo y consecuencias físicas
-                        tanto externas como internas.
-                    </div>
-                </accordion-group>
-            </accordion>
-        </td>
-    </tr>
-    <tr>
         <td>
             <accordion [isAnimated]="true">
                 <accordion-group [panelClass]="customClass" [isOpen]="true">
@@ -58,6 +61,7 @@
                         La violencia sexual abarca actos que van desde el acoso verbal a la penetración forzada y una
                         variedad de tipos de coacción, desde la presión social y la intimidación a la fuerza física.
                     </div>
+                    <img class="imagen" src="assets/sexual.png">
                 </accordion-group>
             </accordion>
         </td>
